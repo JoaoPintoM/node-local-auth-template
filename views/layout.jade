@@ -1,0 +1,31 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='../../css/bootstrap.min.css')
+		link(rel='stylesheet', href='/css/style.css')
+	body
+		.row
+			.col-md-6
+				a.navbar-brand(href='/') Home
+			.col-md-5.text-right
+				.btn-group
+					//- we check if the user is logged (info provided by our middleware)
+					if !login 
+						a.btn.btn-default(type='button', href='/users/login')
+							span.glyphicon.glyphicon-log-in
+								|  Login
+						a.btn.btn-default(type='button', href='/users/register')
+							span.glyphicon.glyphicon-star
+								|  Register
+					else
+						a.btn.btn-default(type='button', href='/users/logout') Logout
+
+
+		if message.success
+			.alert.alert-success(role='alert')
+				| #{message.success}	
+		if message.danger
+			.alert.alert-danger(role='alert')
+				| #{message.danger}
+		block content
