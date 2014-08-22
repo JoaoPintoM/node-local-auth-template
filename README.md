@@ -1,10 +1,7 @@
 node-local-auth-template // starter kit
 ========================
 
-Really simple local authentification template in Node.JS using express.js, passport, mongoose and jade.
-
-You can perfectly use this template as a good starter kit.
-
+Reference Article : http://fullstackguy.azurewebsites.net/nodejs-local-authentification-starter-kit/
 
 It's a simple node.js starter kit with basic authentification forms. It uses **express.js**,  **MongoDB** / **mongoose** for the database side , **passport** to help on the authentification strategy and **jade** as view rendering platform. Of course everything can be change and adapted as you desire. 
 
