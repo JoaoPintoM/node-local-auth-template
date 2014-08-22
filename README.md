@@ -6,9 +6,7 @@ Really simple local authentification template in Node.JS using express.js, passp
 You can perfectly use this template as a good starter kit.
 
 
-Hello people, 
-
-Today, I’m providing a simple node.js starter kit with basic authentification forms. I’m using **express.js**,  **MongoDB** / **mongoose** for the database side , **passport** to help on the authentification strategy and **jade** as view rendering platform. Of course everything can be change and adapted as you desire. 
+It's a simple node.js starter kit with basic authentification forms. It uses **express.js**,  **MongoDB** / **mongoose** for the database side , **passport** to help on the authentification strategy and **jade** as view rendering platform. Of course everything can be change and adapted as you desire. 
 
 Its the basics for **Local accounts** and I’ll improve this solution in the future to met other types of identifications such as *Facebook*, *Twitter*, *bearer token* based for API, etc…
 
